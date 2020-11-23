@@ -1,0 +1,20 @@
+
+reactor context logging
+https://simonbasle.github.io/2018/02/contextual-logging-with-reactor-context-and-mdc/
+https://projectreactor.io/docs/core/release/reference/#context
+
+Spring tips Reactor Context
+https://spring.io/blog/2019/01/30/spring-tips-the-reactor-context
+https://www.youtube.com/watch?v=5tlZddM5Jo0
+https://www.youtube.com/watch?v=0oI_-xBhAK8
+https://www.youtube.com/watch?v=SLG8gUGvdx4
+
+
+
+curl https://moneyger-friendly-grysbok.cfapps.io/expenditures -d "{\"expenditureName\":\"コーヒー\",\"unitPrice\":300,\"quantity\":1,\"expenditureDate\":\"2019-06-03\"}" -H "Content-Type: application/json"
+
+
+cf restart moneyger
+
+curl https://moneyger-friendly-grysbok.cfapps.io/expenditures/1
+
